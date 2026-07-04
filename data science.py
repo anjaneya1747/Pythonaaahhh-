@@ -1,6 +1,6 @@
-#string indexing
-a = "SHER"
-print(a[2])
+# #string indexing
+# a = "SHER"
+# print(a[2])
 
 #comparision operators
 
@@ -120,6 +120,3 @@ print(a[2])
 #     print("A takes home")
 # else:
 #     print("A does not take home")
-
-
- 

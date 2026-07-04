@@ -52,8 +52,8 @@
 
 
 
-#Q26. to print numbers vertically
-num = 1024
-num2 = str(num)
-for i in num2:
-    print(i)
+# #Q26. to print numbers vertically
+# num = 1024
+# num2 = str(num)
+# for i in num2:
+#     print(i)

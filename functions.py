@@ -118,10 +118,44 @@
 #         fact *= i  #Shorthand operator
 #     return fact
 # print(factorial(5))
+
+
+
+
+
+
+
+
+# #Keyword parameters
+
+# def info(name, gender, age, address):
+#     print(name)
+#     print(gender)
+#     print(age)
+#     print(address)
+# info(name="Mukesh", gender="M", age="52", address="Bhopal")
+
   
         
 
 
+# #Check if a number is palindrome or not using keyword argument
+
+
+# def pallindrome(num):
+#     copy = num
+#     reverse = 0
+#     while num>0:
+#         last = num %10
+#         reverse = reverse * 10 + last
+#         num = num // 10
+
+#     if copy == reverse:
+#         print(f"{copy} is a palindrome no.")
+#     else:
+#         print(f"{copy}is not a palindrome no.")
+
+# pallindrome(num = 1221)
 
 
 
@@ -129,3 +163,75 @@
 
 
 
+# #Recursion      
+# def display(num):
+#     if num>10:
+#         return     #in this condition return works like break
+#     print(num)
+#     display(num+1)     #Function calling itself
+# display(1)
+
+
+
+# def display(num):
+#     if num<1:
+#         return     #in this condition return works like break
+#     print(num)
+#     display(num-1)     #Function calling itself
+# display(10)
+
+
+
+
+
+
+# # #Q. Factorial
+
+# def factorial(n: int):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact *= i  #Shorthand operator
+#     return fact 
+# print(factorial(5))
+
+# #Using if else condition and recursion
+# def factorial(num):
+#     if num == 0 or num == 1:
+#         return 1
+#     else:
+#         return num * factorial(num-1)
+# print(factorial(5))
+
+
+# #These topics are skipped
+# 1. lambda function
+# 2. args (interview)
+# 3. kwargs (interview)   
+
+
+
+
+
+
+
+#Revision
+
+
+
+# def multiply(a,b=0):                #Default Parameter  
+#     print(a*b)
+#     return
+
+# multiply(10**2)  
+# multiply(10,20**2)
+
+
+
+
+
+
+
+
+#Pallindrome
+#Prinme no.
+#factors using funct

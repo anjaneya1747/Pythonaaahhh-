@@ -50,7 +50,6 @@
 
 
 
-
 # #Q. number is armstrong or not.   (agr koi number hai and apn uske no. of digit ke sum ko sabke power mai chadhake add kaenge, agr wo sum same hai then no. is armstrong )
 # num = int(input("Enter your no:")) #ex. 153
 # copy = num
